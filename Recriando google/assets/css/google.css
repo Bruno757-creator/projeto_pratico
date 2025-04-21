@@ -1,0 +1,46 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.logo {
+    margin-top: 60px;
+    width: 272px;
+    height: 92px;
+}
+
+.campo-pesquisa {
+    border: 1px solid #dfe1e5;
+    margin-top: 7px;
+    padding: 15px;
+    width: 584px;
+    height: 45px;
+    border-radius: 40px;
+    box-shadow: 1px 2px 8px 0px rgba(60, 64, 67, 0.25);
+    font-size: 25px;
+}
+
+.campo-pesquisa:hover {
+    box-shadow: 1px 4px 12px #dfe1e5;
+}
+
+button {
+    padding: 0px 16px;
+    height: 36px;
+    width: 140px;
+    background-color: #f8f9fa;
+    margin: 27px 6px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: #f8f9fa;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button:hover {
+    border: 1px solid #dfe1e5;
+    box-shadow: 1px 1px 2px #dfe1e5;
+}
