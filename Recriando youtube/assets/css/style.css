@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #0d0d0d;
+}
+
+.menu-topo {
+    width: 100%;
+    display: flex;
+    height: 56px;
+    background-color: #181818;
+}
+
+.topo-container-1 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.menu-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+.menu-logo {
+    width: 100.91px;
+    height: 22.381px;
+    margin-left: 47px;
+}
+
+    .topo-container-2 {
+    display: flex;
+    flex: 2;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo-pesquisa {
+    width: 714px;
+    height: 38px;
+    border: 1px solid #2A2A2A;
+    outline: 0;
+    background-color: #0f0f0f;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    color: white;
+    padding-left: 10px;
+}
+
+.botao-pesquisa {
+    height: 38px;
+    width: 78px;
+    outline: 0;
+    border: 0;
+    background-color: #2A2A2A;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.botao-lupa {
+    width: 24px;
+    height: 24px;
+}
+
+.botao-microfone {
+    width: 38px;
+    height: 38px;
+    background-color: #2A2A2A;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+
+.topo-container-3 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
+}
+
+.icon-container-3 {
+    width: 29px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #912de5;
+    margin-right: 12px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav {
+    width: 88px;
+    height: 309px;
+    background-color: #0f0f0f;
+    flex-direction: column;
+    display: flex;
+    gap: 32px
+}
+
+.botao-menu {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-nave {
+    width: 24px;
+    height: 24px;
+}
+
+.nome-botao {
+    margin-top: 5px;
+    text-align: center;
+    font-family: inter;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.banner {
+    width: 100%;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meio {
+    width: 1284px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.info-canal {
+    height: 148px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.info-canal-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar-canal {
+    width: 128px;
+    height: 128px;
+    background-color: #912de5;
+    border-radius: 50%;
+}
+
+.nome-canal-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.nome-e-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome-canal {
+    color: white;
+    font-family: Roboto;
+    font-size: 30.375px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.num-inscritos {
+    color: #888;
+    font-family: Roboto;
+    font-size: 17.585px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.info-canal-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Subscribers {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 65px;
+    background: #fff;
+    font-family: Roboto;
+    border: 0;
+    outline: 0;
+}
+
+.menu-container {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    font-family: Roboto;
+    font-size: 17.5px;
+    color: #8f8f8f;
+    font-weight: 500;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.menu-item-selecionado {
+    color: #fff;
+    border-bottom: 2px solid #9a9a9a ;
+}
+
+.trailer-container {
+    display: flex;
+    flex-direction: row;
+    height: 118px;
+    margin-top: 30px;
+}
+
+.trailer-1 {
+    display: flex;
+    flex: 1;
+}
+
+.trailer-2 {
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+}
+
+.nome-video {
+    font-family: Roboto;
+    font-size: 700;
+    font-size: 20px;
+    color: #fff;
+    margin-top: -0.7px;
+}
+
+.infos-video {
+    color: #8f8f8f;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -10px;
+}
+
+.video {
+    width: 218px;
+    height: 118px;
+    background-color: #912de5;
+    border-radius: 8px;
+}
+
+.desc-video {
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: -1px;
+}
+
+.link-desc {
+    color: #4994ff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.sessao-videos {
+    display: flex;
+    height: 251px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.icon-play {
+    width: 16px;
+    height: 16px;
+    margin-left: 78px;
+}
+
+.play-all {
+    color: #9a9a9a;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 8px;
+}
+
+.video-container {
+    height: 109px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.info-sessao {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome-vide-sessao {
+    font-size: 17px;
+    margin-top: 16px;
+}
+
+.nome-baixo {
+    font-size: 15.987px;
+}
+
+.icon-video {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+}
+
+.conteiner-row {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+}
